@@ -19,7 +19,7 @@ phases:
         commands:
             #tests
             - echo Testing...
-            - yarn test
+            - yarn test --forceExit
             #build
             - echo Building...
             - yarn build
