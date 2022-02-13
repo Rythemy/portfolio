@@ -20,7 +20,9 @@ phases:
             #build
             - echo Building...
             - yarn build
+            - mv  ./build/* ./*
 artifacts:
     files:
         - "**/*"
-    discard-paths: no
+        - discard-paths: no
+        - base-directory: build
