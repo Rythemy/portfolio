@@ -17,9 +17,6 @@ phases:
             - yarn
     build:
         commands:
-            #tests
-            - echo Testing...
-            - yarn test --forceExit
             #build
             - echo Building...
             - yarn build
@@ -27,4 +24,4 @@ artifacts:
     files:
         - "**/*"
     discard-paths: no
-    base-directory: dist
+    base-directory: build
