@@ -20,7 +20,6 @@ phases:
             #build
             - echo Building...
             - yarn build
-            - mv  ./build/* ./*
 artifacts:
     files:
         - "**/*"
