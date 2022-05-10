@@ -1,16 +1,16 @@
 {
     "basic_info": {
       "name": "Hieu Nguyen",
-      "titles": [ "Systems Engineer" ],
+      "titles": [ "DevOps Engineer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/rythemy",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/rythemy",
           "class": "fab fa-instagram"
         }
       ],
